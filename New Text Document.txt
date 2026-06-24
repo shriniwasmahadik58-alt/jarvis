@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS MARK II // WEB INTERFACE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hud-header">STARK INDUSTRIES GRID MANAGER // WEB INTERFACE ONLINE</div>
+    
+    <!-- Arc Reactor Animation -->
+    <div class="reactor-container">
+        <div class="arc-reactor">
+            <div class="core"></div>
+        </div>
+    </div>
+
+    <!-- Chat Console -->
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="jarvis-msg">Jarvis: Welcome home, boss. Web interface connected successfully.</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Enter command for Jarvis..." autocomplete="off">
+            <button onclick="sendMessage()">EXECUTE</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
